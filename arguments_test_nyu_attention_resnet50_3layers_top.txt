@@ -1,0 +1,11 @@
+--encoder resnet50_bts
+--data_path ../dataset/nyu_depth_v2/official_splits/test/
+--dataset nyu
+--filenames_file ../train_test_inputs/nyudepthv2_test_files_with_gt.txt
+--model_name bts_nyu_v2_pytorch_attention_resnet50_3layers_top
+--checkpoint_path ./models/bts_nyu_v2_pytorch_attention_resnet50_3layers_top/model
+--input_height 480
+--input_width 640
+--max_depth 10
+
+--model_ag 1
